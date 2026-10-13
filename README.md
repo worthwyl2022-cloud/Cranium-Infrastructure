@@ -50,6 +50,9 @@ The acquisition stress suite remains a manifest until each case has a real execu
 
 ## Binder Map
 
+**Current architecture reference:** [CURRENT_ARCHITECTURE_BASELINE_2026-10-12.md](CURRENT_ARCHITECTURE_BASELINE_2026-10-12.md).
+
+
 00 Executive Summary
 01 Binder Introduction
 02 Category Definition and Boundary
@@ -144,7 +147,7 @@ The current dual-substrate / quad-engine model is the canonical architecture bas
 
 A component may only be described as **Implemented and Verified** when executable evidence supports that status. Designed components, pending integrations, environment blockers, and unverified mechanisms remain labeled rather than silently promoted by documentation.
 
-This distinction is particularly important for Governance Review Juror One, Governance Review Juror Two, Cranium Listener, Commander-to-Kernel transport, and the Miracle Memory domain model.
+This distinction is particularly important for the Constitutional Authority and Evidence Grounding substrates, Cranium Listener, Commander-to-Kernel transport, and the Miracle Memory domain model.
 
 ## Public Front Door / Production System of Record
 
