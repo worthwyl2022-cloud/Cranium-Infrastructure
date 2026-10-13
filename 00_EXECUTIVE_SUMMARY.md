@@ -12,16 +12,14 @@ It establishes a canonical authority boundary, separates cognition from authorit
 
 ## Current architecture
 
-The current architecture is Dual-Substrate / Quad-Engine:
+The current architecture is dual-substrate / quad-engine:
 
-- Cranium AI: intelligence and orchestration.
-- Synapse: evidence and assessment.
-- Governance Review Juror One: constructive coherence and evidence review.
-- Governance Review Juror Two: adversarial contradiction and boundary review.
+- **Engine 1, Convertible Cranium Synapse:** proposals, D_A/D_B projections, evidence binding, and trace commitment.
+- **Engine 2A, Constitutional Authority substrate:** Jury A1+A2 answer “May We?” under a distinct constitution and policy.
+- **Engine 2B, Evidence Grounding substrate:** Jury B1+B2 answer “Is It So?” under a separate constitution and policy.
+- **Engine 3, Cranium Kernel:** convergence and lineage verification; the sole authority boundary.
 
-The jurors are intentionally different in mandate and process. Neither juror is authoritative. The Convertible Cranium Kernel remains the sole canonical authority source.
-
-Commander OS is the operational control surface. Cranium Listener is untrusted ingress. Miracle Memory provides governed continuity. Circuit Breaker / COMA provides cross-cutting runtime safety and recovery. Receipts and attestation provide evidence, not authority.
+Cranium AI and other models may propose cognition but cannot grant authority. Cranium Listener is untrusted ingress. Commander OS is the operational interface, not an authority source. Miracle Memory provides governed continuity; Circuit Breaker / COMA provides cross-cutting runtime safety and recovery. Receipts and attestation provide evidence, not authority.
 
 ## Historical terminology
 

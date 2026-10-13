@@ -132,15 +132,15 @@ No claim of invulnerability, certification, independent security audit, market v
 
 ## Current architecture baseline
 
-This document is part of the current Convertible Cranium documentation set. The canonical architecture is Dual-Substrate / Quad-Engine: Cranium AI, Synapse, Governance Review Juror One, and Governance Review Juror Two. The jurors have deliberately different review mandates and processes and neither issues authority.
+This document is part of the current Convertible Cranium documentation set. The canonical architecture is dual-substrate / quad-engine: Engine 1 is Convertible Cranium Synapse; Engine 2A is the Constitutional Authority substrate (Jury A1+A2, “May We?”); Engine 2B is the Evidence Grounding substrate (Jury B1+B2, “Is It So?”); Engine 3 is Cranium Kernel, the sole authority boundary. Cranium AI and other models may propose cognition but do not grant authority.
 
-Commander OS is the operational control surface. Cranium Listener is untrusted ingress. Miracle Memory provides governed continuity. Circuit Breaker / COMA provides cross-cutting runtime containment and recovery. The Convertible Cranium Kernel remains the sole canonical authority source.
+Cranium Listener is untrusted ingress. Commander OS is the operational interface, not an authority source. Miracle Memory provides governed continuity. Circuit Breaker / COMA provides cross-cutting runtime containment and recovery.
 
 The former Eight-Plane and Dual-Engine descriptions are historical framing only and must not be read as the current governance model.
 
 ## Implementation Status Boundary
 
-The current Dual-Substrate / Quad-Engine model is the canonical architecture baseline, not a claim that every named stage is already shipped. The implementation state is tracked explicitly in `40_IMPLEMENTATION_STATUS_AND_GAP_REGISTER.md`.
+The current dual-substrate / quad-engine model is the canonical architecture baseline, not a claim that every named stage is already shipped. The implementation state is tracked explicitly in `40_IMPLEMENTATION_STATUS_AND_GAP_REGISTER.md`.
 
 A component may only be described as **Implemented and Verified** when executable evidence supports that status. Designed components, pending integrations, environment blockers, and unverified mechanisms remain labeled rather than silently promoted by documentation.
 
@@ -159,7 +159,7 @@ The authoritative production system remains under [`worthwyl2022-cloud`](https:/
 | Canonical authority | [`cranium-kernel`](https://github.com/worthwyl2022-cloud/cranium-kernel) |
 | Evidence / attestation | [`cranium-synapse`](https://github.com/worthwyl2022-cloud/cranium-synapse) |
 | Cognitive proposal | [`cranium-ai`](https://github.com/worthwyl2022-cloud/cranium-ai) |
-| Commander / operator surface | [`cranium-ultra-platform`](https://github.com/worthwyl2022-cloud/cranium-ultra-platform) |
+| Commander / operator surface | [`convertible-cranium-commander`](https://github.com/worthwyl2022-cloud/convertible-cranium-commander) |
 | Verification / diligence | [`cranium-diligence-workbench`](https://github.com/worthwyl2022-cloud/cranium-diligence-workbench) |
 | Appliance delivery | [`cranium-boot-drive`](https://github.com/worthwyl2022-cloud/cranium-boot-drive) |
 | Acquisition demonstration | [`cranium-acquisition-demo-drive`](https://github.com/worthwyl2022-cloud/cranium-acquisition-demo-drive) |
@@ -171,7 +171,7 @@ The authoritative production system remains under [`worthwyl2022-cloud`](https:/
 
 Commander may present system state, construct proposals, orchestrate governed workflows, submit authority requests, and participate in runtime safety and continuity. It does not create canonical authority, replace the Kernel, redefine constitutional truth, or become an independent system of record.
 
-The production Commander/operator implementation is mapped through `worthwyl2022-cloud/cranium-ultra-platform`.
+The production Commander/operator implementation is [`worthwyl2022-cloud/convertible-cranium-commander`](https://github.com/worthwyl2022-cloud/convertible-cranium-commander). The archived `cranium-ultra-platform` repository is historical lineage, not the current Commander entry point.
 
 The governing distinction is:
 
